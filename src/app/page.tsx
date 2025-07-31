@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Navigation from "../components/Navigation";
 import { FaMapMarkerAlt, FaCalendarAlt, FaBed, FaUtensils, FaCamera, FaPlane, FaStar, FaHeart } from 'react-icons/fa';
 
 export default function Home() {
@@ -54,8 +53,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Navigation />
-      
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-blue-600 to-purple-600 text-white">
         <div className="absolute inset-0 bg-black opacity-40"></div>
