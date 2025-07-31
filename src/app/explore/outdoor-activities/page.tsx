@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaTree, FaWater, FaHiking, FaBicycle, FaFish, FaGolf, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaTree, FaWater, FaHiking, FaMapMarkerAlt } from 'react-icons/fa';
 
 export const metadata: Metadata = {
   title: "Orlando Outdoor Activities | Nature & Adventure | WTDI",
@@ -187,13 +187,12 @@ export default function OutdoorActivitiesPage() {
                     <span className="text-gray-600 ml-1">{activity.duration}</span>
                   </div>
                 </div>
-                <div className="text-sm text-gray-500 mb-4">
-                  <div className="flex items-center">
-                    {/* FaMapMarkerAlt is not imported, so this line will cause an error. */}
-                    {/* <FaMapMarkerAlt className="mr-2" /> */}
-                    {activity.location}
-                  </div>
-                </div>
+                                 <div className="text-sm text-gray-500 mb-4">
+                   <div className="flex items-center">
+                     <FaMapMarkerAlt className="mr-2" />
+                     {activity.location}
+                   </div>
+                 </div>
                 <div className="mb-4">
                   <h4 className="text-sm font-semibold text-gray-900 mb-2">Activities:</h4>
                   <div className="flex flex-wrap gap-2">

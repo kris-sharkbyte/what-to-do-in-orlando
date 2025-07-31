@@ -7,9 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "firebase deploy",
-    "optimize-images": "node scripts/optimize-images.js",
-    "prebuild": "npm run optimize-images"
+    "deploy": "npm run build && firebase deploy --only hosting --project wtdi-orlando --account kris.cole@sharkbytesoftware.com"
   },
   "dependencies": {
     "firebase": "^12.0.0",
@@ -28,11 +26,6 @@
     "eslint": "^9.0.0",
     "eslint-config-next": "^15.4.5",
     "firebase-tools": "^14.0.0",
-    "imagemin": "^8.0.1",
-    "imagemin-webp": "^8.0.0",
-    "imagemin-mozjpeg": "^10.0.0",
-    "imagemin-pngquant": "^9.0.2",
-    "sharp": "^0.33.0",
     "tailwindcss": "^4.0.0",
     "typescript": "^5.6.0"
   }

@@ -1,7 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
 import Navigation from "../components/Navigation";
-import OptimizedImage from "../components/OptimizedImage";
 import { FaMapMarkerAlt, FaCalendarAlt, FaBed, FaUtensils, FaCamera, FaPlane, FaStar, FaHeart } from 'react-icons/fa';
 
 export default function Home() {
@@ -116,7 +114,7 @@ export default function Home() {
               Featured Attractions
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Discover the most popular and highly-rated attractions in Orlando that you won't want to miss.
+              Discover the most popular and highly-rated attractions in Orlando that you won&apos;t want to miss.
             </p>
           </div>
           
@@ -178,10 +176,10 @@ export default function Home() {
           </h2>
           <div className="prose prose-lg max-w-none">
             <p className="text-gray-600 mb-6">
-              Orlando, Florida is the world's most visited tourist destination, offering an unparalleled mix of entertainment, adventure, and relaxation. Known as "The Theme Park Capital of the World," Orlando is home to Walt Disney World Resort, Universal Orlando Resort, SeaWorld Orlando, and countless other attractions that make it the perfect destination for families, couples, and solo travelers alike.
+              Orlando, Florida is the world&apos;s most visited tourist destination, offering an unparalleled mix of entertainment, adventure, and relaxation. Known as &quot;The Theme Park Capital of the World,&quot; Orlando is home to Walt Disney World Resort, Universal Orlando Resort, SeaWorld Orlando, and countless other attractions that make it the perfect destination for families, couples, and solo travelers alike.
             </p>
             <p className="text-gray-600 mb-6">
-              Beyond the famous theme parks, Orlando boasts a vibrant dining scene with world-class restaurants, luxury hotels and resorts, exciting nightlife options, and beautiful natural attractions. Whether you're seeking thrills on roller coasters, fine dining experiences, or peaceful nature walks, Orlando has something for everyone.
+              Beyond the famous theme parks, Orlando boasts a vibrant dining scene with world-class restaurants, luxury hotels and resorts, exciting nightlife options, and beautiful natural attractions. Whether you&apos;re seeking thrills on roller coasters, fine dining experiences, or peaceful nature walks, Orlando has something for everyone.
             </p>
             <p className="text-gray-600">
               With year-round sunshine, excellent shopping opportunities, and a welcoming atmosphere, Orlando provides the perfect backdrop for creating unforgettable memories. From the magic of Disney to the excitement of Universal Studios, every visit to Orlando promises new adventures and experiences to cherish.

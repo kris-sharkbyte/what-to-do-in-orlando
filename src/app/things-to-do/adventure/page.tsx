@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { FaMountain, FaBicycle, FaHiking, FaSkydiving, FaRocket, FaStar, FaMapMarkerAlt, FaHeart } from 'react-icons/fa';
+import { FaMountain, FaBicycle, FaHiking, FaPlane, FaRocket, FaStar, FaMapMarkerAlt, FaHeart } from 'react-icons/fa';
 
 export const metadata: Metadata = {
   title: "Adventure & Sports Orlando | Thrill Activities & Outdoor Sports | WTDI",
@@ -213,7 +213,7 @@ export default function AdventureSportsPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center p-6 bg-green-50 rounded-lg">
-              <FaSkydiving className="text-4xl text-green-500 mx-auto mb-4" />
+                             <FaPlane className="text-4xl text-green-500 mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Air Adventures</h3>
               <ul className="text-gray-600 space-y-2 text-left">
                 <li>• Skydiving</li>
